@@ -1,0 +1,4 @@
+AT+NAME = Slave_Prof   % nombre del módulo en la conexión BT.
+AT+ROLE = 0                   % 0 = esclavo, 1 = maestro
+AT+UART=9600,0,0         % 9600 baudios, 0 stop bit, 0 paridad  
+AT+PSWD=1234              % clave para entrar a la conexión BT.
